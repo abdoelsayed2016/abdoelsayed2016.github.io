@@ -1,0 +1,104 @@
+/* Make the About-page profile photo circular */
+
+body {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+.about {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.about .profile {
+  margin-top: 3rem;   /* increase to 2rem, 3rem if you want it lower */
+}
+
+/* Selected publications: layout + buttons */
+.selected-pubs {
+  margin-top: 1rem;
+}
+
+.selected-pub {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.selected-pub .pub-title {
+  margin: 0 0 0.2rem 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.selected-pub .pub-title a {
+  color: #157da8;      /* link color */
+  text-decoration: none;
+}
+
+.selected-pub .pub-title a:hover {
+  text-decoration: underline;
+}
+
+.selected-pub .pub-authors {
+  margin-bottom: 0.2rem;
+  color: #222;
+  font-size: 0.95rem;
+}
+
+.selected-pub .pub-meta {
+  color: #666;
+  margin-bottom: 0.35rem;
+  font-style: italic;
+}
+
+.selected-pub .pub-note {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+  color: #0a4a6f;
+  background: #f1fbff;
+  border: 1px solid #e0f2fb;
+  padding: .12rem .45rem;
+  border-radius: 999px;
+  font-size: .85rem;
+}
+
+.pub-links {
+  margin-top: 0.4rem;
+}
+
+.pub-btn {
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 0.25rem .55rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: .78rem;
+  text-decoration: none;
+  color: #0a4a6f;
+  margin-right: .5rem;
+  background: white;
+  transition: all .12s ease-in-out;
+}
+
+.pub-btn:hover {
+  background: #f4fbff;
+  border-color: #cfeefb;
+  transform: translateY(-1px);
+}
+
+
+/* Color for publication titles */
+.bibliography .paper-title,
+.bibliography .paper-title a,
+.bibliography .title,
+.bibliography .title a {
+  color: var(--global-theme-color) !important;
+}
+
+.bibliography .paper-title:hover,
+.bibliography .paper-title a:hover,
+.bibliography .title:hover,
+.bibliography .title a:hover {
+  text-decoration: underline;
+}

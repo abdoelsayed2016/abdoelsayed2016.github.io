@@ -1,3 +1,39 @@
-<div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+{%- comment -%}
+  Render selected publications from _data/selected_publications.yml
+{%- endcomment -%}
+
+<div class="selected-pubs">
+  {% for pub in site.data.selected_publications %}
+    <div class="selected-pub">
+      <div class="pub-left">
+        <h3 class="pub-title">
+          {% if pub.pdf %}
+            <a href="{{ pub.pdf }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+          {% else %}
+            {{ pub.title }}
+          {% endif %}
+        </h3>
+
+        <div class="pub-authors">
+          {{ pub.authors }}
+        </div>
+
+        <div class="pub-meta">
+          <em>{{ pub.venue }}</em>{% if pub.year %} ({{ pub.year }}){% endif %}
+        </div>
+
+        {% if pub.note %}
+          <div class="pub-note">{{ pub.note }}</div>
+        {% endif %}
+
+        <div class="pub-links">
+          {% if pub.abs %}<a class="pub-btn" href="{{ pub.abs }}" target="_blank" rel="noopener">ABS</a>{% endif %}
+          {% if pub.arxiv %}<a class="pub-btn" href="{{ pub.arxiv }}" target="_blank" rel="noopener">ARXIV</a>{% endif %}
+          {% if pub.pdf %}<a class="pub-btn" href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+          {% if pub.code %}<a class="pub-btn" href="{{ pub.code }}" target="_blank" rel="noopener">CODE</a>{% endif %}
+          {% if pub.website %}<a class="pub-btn" href="{{ pub.website }}" target="_blank" rel="noopener">WEBSITE</a>{% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
 </div>

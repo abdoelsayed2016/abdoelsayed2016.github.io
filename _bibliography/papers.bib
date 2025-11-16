@@ -1,115 +1,331 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{abdallah2025tempretriever,
+  title        = {TempRetriever: Fusion-based Temporal Dense Passage Retrieval for Time-Sensitive Questions},
+  author       = {Abdallah, Abdelrahman and Piryani, Bhawna and Wallat, Jonas and Anand, Avishek and Jatowt, Adam},
+  year         = {2025},
+  journal      = {arXiv preprint arXiv:2502.21024},
+  abbr         = {WSDM},
+  arxiv        = {2502.21024},
+  Code        = {},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{piryani2025evaluating,
+  title={Evaluating Robustness of LLMs in Question Answering on Multilingual Noisy OCR Data},
+  author={Piryani, Bhawna and Mozafari, Jamshid and Abdallah, Abdelrahman and Doucet, Antoine and Jatowt, Adam},
+  booktitle={Proceedings of the 34th ACM International Conference on Information and Knowledge Management},
+  pages={2366--2376},
+  year={2025},
+  abbr = {CIKM},
+  arxiv        = {2502.16781},
+  Code        = {https://github.com/DataScienceUIBK/MultiOCR-QA},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{abdallah2025rerankarena,
+  title={RerankArena: A Unified Platform for Evaluating Retrieval, Reranking and RAG with Human and LLM Feedback},
+  author={Abdallah, Abdelrahman and Abdalla, Mahmoud and Piryani, Bhawna and Mozafari, Jamshid and Ali, Mohammed and Jatowt, Adam},
+  booktitle={Proceedings of the 34th ACM International Conference on Information and Knowledge Management},
+  pages={6593--6597},
+  year={2025},
+  arxiv        = {2508.05512},
+  Code        = {https://github.com/DataScienceUIBK/RankArena},
+    abbr = {CIKM},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{gruber-etal-2025-complextempqa,
+    title = "{C}omplex{T}emp{QA}: A 100m Dataset for Complex Temporal Question Answering",
+    author = {Gruber, Raphael  and
+      Abdallah, Abdelrahman  and
+      F{\"a}rber, Michael  and
+      Jatowt, Adam},
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.463/",
+    doi = "10.18653/v1/2025.emnlp-main.463",
+    pages = "9111--9123",
+    ISBN = "979-8-89176-332-6",
+    abstract = "We introduce ComplexTempQA,a large-scale dataset consisting of over 100 million question-answer pairs designed to tackle the challenges in temporal question answering. ComplexTempQA significantly surpasses existing benchmarks in scale and scope. Utilizing Wikipedia and Wikidata, the dataset covers questions spanning over two decades and offers an unmatched scale. We introduce a new taxonomy that categorizes questions as \textit{attributes}, \textit{comparisons}, and \textit{counting} questions, revolving around events, entities, and time periods, respectively. A standout feature of ComplexTempQA is the high complexity of its questions, which demand reasoning capabilities for answering such as across-time comparison, temporal aggregation, and multi-hop reasoning involving temporal event ordering and entity recognition. Additionally, each question is accompanied by detailed metadata, including specific time scopes, allowing for comprehensive evaluation of temporal reasoning abilities of large language models.",
+    arxiv        = {2406.04866},
+    Code        = {https://github.com/DataScienceUIBK/ComplexTempQA},
+      abbr = {EMNLP},
+}
+@inproceedings{abdallah-etal-2025-good,
+    title = "How Good are {LLM}-based Rerankers? An Empirical Analysis of State-of-the-Art Reranking Models",
+    author = "Abdallah, Abdelrahman  and
+      Piryani, Bhawna  and
+      Mozafari, Jamshid  and
+      Ali, Mohammed  and
+      Jatowt, Adam",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.305/",
+    doi = "10.18653/v1/2025.findings-emnlp.305",
+    pages = "5693--5709",
+    ISBN = "979-8-89176-335-7",
+    abstract = "In this work, we present a systematic and comprehensive empirical evaluation of state-of-the-art reranking methods, encompassing large language model (LLM)-based, lightweight contextual, and zero-shot approaches, with respect to their performance in information retrieval tasks. We evaluate in total 22 methods, including 40 variants (depending on used LLM) across several established benchmarks, including TREC DL19, DL20, and BEIR, as well as a novel dataset designed to test queries unseen by pretrained models. Our primary goal is to determine, through controlled and fair comparisons, whether a performance disparity exists between LLM-based rerankers and their lightweight counterparts, particularly on novel queries, and to elucidate the underlying causes of any observed differences. To disentangle confounding factors, we analyse the effects of training data overlap, model architecture, and computational efficiency on reranking performance. Our findings indicate that while LLM-based rerankers demonstrate superior performance on familiar queries, their generalisation ability to novel queries varies, with lightweight models offering comparable efficiency. We further identify that the novelty of queries significantly impacts reranking effectiveness, highlighting limitations in existing approaches.",
+    arxiv        = {2508.16757},
+    Code        = {https://github.com/DataScienceUIBK/llm-reranking-generalization-study?tab=readme-ov-file},
+          abbr = {EMNLP},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@inproceedings{abdallah-etal-2025-dear,
+    title = "{D}e{AR}: Dual-Stage Document Reranking with Reasoning Agents via {LLM} Distillation",
+    author = "Abdallah, Abdelrahman  and
+      Mozafari, Jamshid  and
+      Piryani, Bhawna  and
+      Jatowt, Adam",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.306/",
+    doi = "10.18653/v1/2025.findings-emnlp.306",
+    pages = "5710--5723",
+    ISBN = "979-8-89176-335-7",
+    abstract = "Large Language Models (LLMs) have transformed listwise document reranking by enabling global reasoning over candidate sets, yet single models often struggle to balance fine-grained relevance scoring with holistic cross-document analysis. We propose DeepAgentRank (DeAR), an open-source framework that decouples these tasks through a dual-stage approach, achieving superior accuracy and interpretability. In Stage 1, we distill token-level relevance signals from a frozen 13B LLaMA teacher into a compact 3, 8B student model using a hybrid of cross-entropy, RankNet, and KL divergence losses, ensuring robust pointwise scoring. In Stage 2, we attach a second LoRA adapter and fine-tune on 20K GPT-4o-generated chain-of-thought permutations, enabling listwise reasoning with natural-language justifications. Evaluated on TREC-DL19/20, eight BEIR datasets, and NovelEval-2306, DeAR surpasses open-source baselines by +5.1 nDCG@5 on DL20 and achieves 90.97 nDCG@10 on NovelEval, outperforming GPT-4 by +3.09. Without fine-tuning on Wikipedia, DeAR also excels in open-domain QA, achieving 54.29 Top-1 accuracy on Natural Questions, surpassing baselines like MonoT5, UPR, and RankGPT. Ablations confirm that dual-loss distillation ensures stable calibration, making DeAR a highly effective and interpretable solution for modern reranking systems.",
+    arxiv        = {2508.16998},
+    Code        = {https://github.com/DataScienceUIBK/DeAR-Reranking},
+          abbr = {EMNLP},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{abdelhalim2025deep,
+  title={A deep learning framework for accurate mammographic mass classification using local context attention module},
+  author={Abdelhalim, Ibrahim and Almalki, Yassir and Abdallah, Abdelrahman and Karam, Rasha and Alduraibi, Sharifa and Basha, Mohammad and Mohamed, Hassan and Ghazal, Mohammed and Mahmoud, Ali and Alghamdi, Norah Saleh and others},
+  journal={Medical Physics},
+  volume={52},
+  number={10},
+  pages={e18119},
+  year={2025},
+  publisher={Wiley Online Library},
+  abbr = {Medical Physics},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{mozafari2025wrong,
+  title={Wrong Answers Can Also Be Useful: PlausibleQA-A Large-Scale QA Dataset with Answer Plausibility Scores},
+  author={Mozafari, Jamshid and Abdallah, Abdelrahman and Piryani, Bhawna and Jatowt, Adam},
+  booktitle={Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={3832--3842},
+  year={2025},
+  arxiv        = {https://www.arxiv.org/abs/2502.16358},
+  Code        = {https://github.com/DataScienceUIBK/PlausibleQA},
+  abbr = {SIGIR},
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@article{abdallah2025improving,
+  title={Improving BI-RADS Mammographic Classification With Self-Supervised Vision Transformers and Cascade Learning},
+  author={Abdallah, Abdelrahman and Kasem, Mahmoud SalahEldin and Abdelhalim, Ibrahim and Alghamdi, Norah Saleh and El-Baz, Ayman},
+  journal={IEEE Access},
+  year={2025},
+  publisher={IEEE},
+  abbr = {IEEE Access},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+
+@inproceedings{abdallah2025cascadepls,
+  title={CascadePLS-ViT: Cascade with Patch-Level Self-Supervised Vision Transformers for Breast Cancer Classification in Mammography},
+  author={Abdallah, Abdelrahman and Kasem, Mahmoud SalahEldin and Abdelhalim, Ibrahim and Alghamdi, Norah Saleh and Contractor, Sohail and El-Baz, Ayman},
+  booktitle={2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE},
+  abbr = {ISBI},
+}
+
+@inproceedings{wallat-etal-2025-study,
+    title = "A Study into Investigating Temporal Robustness of {LLM}s",
+    author = "Wallat, Jonas  and
+      Abdallah, Abdelrahman  and
+      Jatowt, Adam  and
+      Anand, Avishek",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.810/",
+    doi = "10.18653/v1/2025.findings-acl.810",
+    pages = "15685--15705",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Large Language Models (LLMs) encapsulate a surprising amount of factual world knowledge. However, their performance on temporal questions and historical knowledge is limited because they often cannot understand temporal scope and orientation or neglect the temporal aspect altogether.In this study, we aim to measure precisely how robust LLMs are for question answering based on their ability to process temporal information and perform tasks requiring temporal reasoning and temporal factual knowledge. Specifically, we design eight time-sensitiverobustness tests for factual information to check the sensitivity of six popular LLMs in the zero-shot setting.Overall, we find LLMs lacking temporal robustness, especially to temporal reformulations and the use of different granularities of temporal references. We show how a selection of these eight tests can be used automatically to judge a model{'}s temporal robustness for user questions on the fly. Finally, we apply the findings of this study to improve the temporal QA performance by up to 55{\%}.",
+    
+    arxiv        = {2503.17073},
+    Code        = {https://github.com/jwallat/temporalrobustness},
+     abbr = {ACL},
+}
+
+
+@article{abdallah2025rankify,
+  title={Rankify: A comprehensive python toolkit for retrieval, re-ranking, and retrieval-augmented generation},
+  author={Abdallah, Abdelrahman and Piryani, Bhawna and Mozafari, Jamshid and Ali, Mohammed and Jatowt, Adam},
+  journal={arXiv preprint arXiv:2502.02464},
+  year={2025},
+     abbr = {ArXiv},   
+    arxiv        = {2502.02464},
+    Code        = {  https://github.com/DataScienceUIBK/Rankify},
+}
+
+@inproceedings{abdallah-etal-2025-asrank,
+    title = "{ASR}ank: Zero-Shot Re-Ranking with Answer Scent for Document Retrieval",
+    author = "Abdallah, Abdelrahman  and
+      Mozafari, Jamshid  and
+      Piryani, Bhawna  and
+      Jatowt, Adam",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.161/",
+    doi = "10.18653/v1/2025.findings-naacl.161",
+    pages = "2950--2970",
+    ISBN = "979-8-89176-195-7",
+         abbr = {NAACL},   
+    abstract = "Retrieval-Augmented Generation (RAG) models have drawn considerable attention in modern open-domain question answering. The effectiveness of RAG depends on the quality of the top retrieved documents. However, conventional retrieval methods sometimes fail to rank the most relevant documents at the top. In this paper, we introduce ASRANK, a new re-ranking method based on scoring retrieved documents using zero-shot answer scent which relies on a pre-trained large language model to compute the likelihood of the document-derived answers aligning with the answer scent. Our approach demonstrates marked improvements across several datasets, including NQ, TriviaQA, WebQA, ArchivalQA, HotpotQA, and Entity Questions. Notably, ASRANK increases Top-1 retrieval accuracy on NQ from 19.2{\%} to 46.5{\%} for MSS and 22.1{\%} to 47.3{\%} for BM25. It also shows strong retrieval performance on several datasets compared to state-of-the-art methods (47.3 Top-1 by ASRANK vs 35.4 by UPR by BM25)."
+}
+
+@inproceedings{abdallah-etal-2025-dynrank,
+    title = "{D}yn{R}ank: Improve Passage Retrieval with Dynamic Zero-Shot Prompting Based on Question Classification",
+    author = "Abdallah, Abdelrahman  and
+      Mozafari, Jamshid  and
+      Piryani, Bhawna  and
+      Abdelgwad, Mohammed M.  and
+      Jatowt, Adam",
+    editor = "Rambow, Owen  and
+      Wanner, Leo  and
+      Apidianaki, Marianna  and
+      Al-Khalifa, Hend  and
+      Eugenio, Barbara Di  and
+      Schockaert, Steven",
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-main.319/",
+    pages = "4768--4778",
+           abbr = {COLING },   
+    abstract = "This paper presents DynRank, a novel framework for enhancing passage retrieval in open-domain question-answering systems through dynamic zero-shot question classification. Traditional approaches rely on static prompts and pre-defined templates, which may limit model adaptability across different questions and contexts. In contrast, DynRank introduces a dynamic prompting mechanism, leveraging a pre-trained question classification model that categorizes questions into fine-grained types. Based on these classifications, contextually relevant prompts are generated, enabling more effective passage retrieval. We integrate DynRank into existing retrieval frameworks and conduct extensive experiments on multiple QA benchmark datasets."
+}
+
+@inproceedings{kasem2024ihrrb,
+  title={IHRRB-DINO: Identifying High-Risk Regions of Breast Masses in Mammogram Images Using Data-Driven Instance Noise (DINO)},
+  author={Kasem, Mahmoud SalahEldin and Abdallah, Abdelrahman and Abdelhalim, Ibrahim and Alghamdi, Norah Saleh and Contractor, Sohail and El-Baz, Ayman},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={113--122},
+  year={2024},
+  organization={Springer},
+             abbr = {MICCAI },   
+}
+@inproceedings{piryani-etal-2024-detecting,
+    title = "Detecting Temporal Ambiguity in Questions",
+    author = "Piryani, Bhawna  and
+      Abdallah, Abdelrahman  and
+      Mozafari, Jamshid  and
+      Jatowt, Adam",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.562/",
+    doi = "10.18653/v1/2024.findings-emnlp.562",
+    pages = "9620--9634",
+                 abbr = {EMNLP },   
+    abstract = "Detecting and answering ambiguous questions has been a challenging task in open-domain question answering. Ambiguous questions have different answers depending on their interpretation and can take diverse forms. Temporally ambiguous questions are one of the most common types of such questions. In this paper, we introduce TEMPAMBIQA, a manually annotated temporally ambiguous QA dataset consisting of 8,162 open-domain questions derived from existing datasets. Our annotations focus on capturing temporal ambiguity to study the task of detecting temporally ambiguous questions. We propose a novel approach by using diverse search strategies based on disambiguate versions of the questions. We also introduce and test non-search, competitive baselines for detecting temporal ambiguity using zero-shot and few-shot approaches."
+}
+
+
+@inproceedings{mozafari-etal-2024-exploring,
+    title = "Exploring Hint Generation Approaches for Open-Domain Question Answering",
+    author = "Mozafari, Jamshid  and
+      Abdallah, Abdelrahman  and
+      Piryani, Bhawna  and
+      Jatowt, Adam",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.546/",
+    doi = "10.18653/v1/2024.findings-emnlp.546",
+    pages = "9327--9352",
+                     abbr = {EMNLP },   
+    abstract = "Automatic Question Answering (QA) systems rely on contextual information to provide accurate answers. Commonly, contexts are prepared through either retrieval-based or generation-based methods. The former involves retrieving relevant documents from a corpus like Wikipedia, whereas the latter uses generative models such as Large Language Models (LLMs) to generate the context. In this paper, we introduce a novel context preparation approach called HINTQA, which employs Automatic Hint Generation (HG) techniques. Unlike traditional methods, HINTQA prompts LLMs to produce hints about potential answers for the question rather than generating relevant context. We evaluate our approach across three QA datasets including TriviaQA, Natural Questions, and Web Questions, examining how the number and order of hints impact performance. Our findings show that the HINTQA surpasses both retrieval-based and generation-based approaches. We demonstrate that hints enhance the accuracy of answers more than retrieved and generated contexts."
+}
+
+@inproceedings{abdallah2024arabicaqa,
+  title={Arabicaqa: A comprehensive dataset for arabic question answering},
+  author={Abdallah, Abdelrahman and Kasem, Mahmoud and Abdalla, Mahmoud and Mahmoud, Mohamed and Elkasaby, Mohamed and Elbendary, Yasser and Jatowt, Adam},
+  booktitle={Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={2049--2059},
+  year={2024},
+                   abbr = {SIGIR },   
+}
+
+
+@article{abdallah2023exploring,
+  title={Exploring the state of the art in legal QA systems},
+  author={Abdallah, Abdelrahman and Piryani, Bhawna and Jatowt, Adam},
+  journal={Journal of Big Data},
+  volume={10},
+  number={1},
+  pages={127},
+  year={2023},
+  publisher={Springer},
+                     abbr = {Journal of Big Data },   
+}
+
+
+@article{10.1145/3657281,
+author = {Salaheldin Kasem, Mahmoud and Abdallah, Abdelrahman and Berendeyev, Alexander and Elkady, Ebrahem and Mahmoud, Mohamed and Abdalla, Mahmoud and Hamada, Mohamed and Vascon, Sebastiano and Nurseitov, Daniyar and Taj-Eddin, Islam},
+title = {Deep Learning for Table Detection and Structure Recognition: A Survey},
+year = {2024},
+issue_date = {December 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {56},
+number = {12},
+issn = {0360-0300},
+url = {https://doi.org/10.1145/3657281},
+doi = {10.1145/3657281},
+abstract = {Tables&nbsp;are everywhere, from scientific journals, articles, websites, and newspapers all the way to items we buy at the supermarket. Detecting them is thus of utmost importance to automatically understanding the content of a document. The performance of table detection has substantially increased thanks to the rapid development of deep learning networks. The goals of this survey are to provide a profound comprehension of the major developments in the field of Table&nbsp;Detection, offer insight into the different methodologies, and provide a systematic taxonomy of the different approaches. Furthermore, we provide an analysis of both classic and new applications in the field. Lastly, the datasets and source code of the existing models are organized to provide the reader with a compass on this vast literature. Finally, we go over the architecture of utilizing various object detection and table structure recognition methods to create an effective and efficient system, as well as a set of development trends to keep up with state-of-the-art algorithms and future research. We have also set up a public GitHub repository where we will be updating the most recent publications, open data, and source code. The GitHub repository is available at https://github.com/abdoelsayed2016/table-detection-structure-recognition.},
+journal = {ACM Comput. Surv.},
+month = oct,
+articleno = {305},
+numpages = {41},
+keywords = {Convolutional neural networks, deep learning, table detection, table structure recognition},
+                     abbr = {ACM Comput. Surv. },   
 }

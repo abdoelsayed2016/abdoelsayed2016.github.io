@@ -1,0 +1,39 @@
+# _data/selected_publications.yml
+- id: tempretriever2025
+  title: "TempRetriever: Fusion-based Temporal Dense Passage Retrieval for Time-Sensitive Questions"
+  authors: "Abdelrahman A., Bhawna P., Jonas W., Avishek A., Adam J."
+  venue: "WSDM 2026"
+  year: 2025
+  arxiv: "https://arxiv.org/abs/2502.21024"
+  code: ""
+  note: "Acceptance rate: 16%"
+
+- id: dear2025
+  title: "DeAR: Dual-Stage Document Reranking with Reasoning Agents via LLM Distillation"
+  authors: "Abdelrahman A., Mozafari J., Piryani B., Jatowt A."
+  venue: "EMNLP Findings 2025"
+  year: 2025
+  arxiv: "https://arxiv.org/abs/2508.16998"
+  code: "https://github.com/DataScienceUIBK/DeAR-Reranking"
+
+- id: complextempqa2025
+  title: "ComplexTempQA: A Large-Scale Dataset for Complex Temporal Question Answering"
+  authors: "Raphael G., Abdelrahman A., Michael F., Adam J."
+  venue: "EMNLP 2025"
+  year: 2025
+  arxiv: "https://arxiv.org/abs/2406.04866"
+  code: "https://github.com/DataScienceUIBK/ComplexTempQA"
+- id: rankarena2025
+  title: "RankArena: A unified platform for evaluation of retrieval, reranking and RAG"
+  authors: "Abdelrahman A., Abdalla M., Piryani B., Mozafari J., Ali M., Jatowt A."
+  venue: "CIKM 2025"
+  year: 2025
+  arxiv: "https://arxiv.org/abs/2508.05512"
+  code: "https://github.com/DataScienceUIBK/RankArena"
+- id: rankify2025
+  title: "RankArena: A unified platform for evaluation of retrieval, reranking and RAG"
+  authors: "Abdelrahman A., Abdalla M., Piryani B., Mozafari J., Ali M., Jatowt A."
+  venue: "CIKM 2025"
+  year: 2025
+  arxiv: "https://arxiv.org/abs/2502.02464"
+  code: "https://github.com/DataScienceUIBK/Rankify"
