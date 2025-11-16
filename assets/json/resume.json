@@ -247,7 +247,7 @@
       "name": "NAACL 2025 Certificate",
       "date": "2025-01-01",
       "issuer": "NAACL",
-      "url": "./NAACLCertificate.pdf",
+      "url": "/assets/pdf/NAACLCertificate.pdf",
       "icon": "fa-solid fa-certificate"
     }
   ],
