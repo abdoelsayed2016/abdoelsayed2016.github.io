@@ -413,46 +413,25 @@
       "name": "Programming Languages",
       "level": "",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "PHP",
-        "Java"
-      ]
+      "keywords": ["Python", "PHP", "Java"]
     },
     {
       "name": "ML & DL Frameworks",
       "level": "",
       "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "PyTorch",
-        "TensorFlow",
-        "Keras",
-        "scikit-learn"
-      ]
+      "keywords": ["PyTorch", "TensorFlow", "Keras", "scikit-learn"]
     },
     {
       "name": "Web Development",
       "level": "",
       "icon": "fa-solid fa-globe",
-      "keywords": [
-        "Laravel",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "jQuery"
-      ]
+      "keywords": ["Laravel", "HTML", "CSS", "JavaScript", "jQuery"]
     },
     {
       "name": "Tools",
       "level": "",
       "icon": "fa-solid fa-wrench",
-      "keywords": [
-        "PyCharm",
-        "Anaconda",
-        "Jupyter Notebook",
-        "Git",
-        "Linux"
-      ]
+      "keywords": ["PyCharm", "Anaconda", "Jupyter Notebook", "Git", "Linux"]
     }
   ],
 
@@ -484,13 +463,7 @@
     {
       "name": "Computer Vision",
       "icon": "fa-solid fa-camera",
-      "keywords": [
-        "Handwriting Recognition",
-        "OCR",
-        "Medical Imaging",
-        "Image Retrieval",
-        "Segmentation"
-      ]
+      "keywords": ["Handwriting Recognition", "OCR", "Medical Imaging", "Image Retrieval", "Segmentation"]
     }
   ],
 

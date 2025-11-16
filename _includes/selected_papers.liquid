@@ -19,7 +19,8 @@
         </div>
 
         <div class="pub-meta">
-          <em>{{ pub.venue }}</em>{% if pub.year %} ({{ pub.year }}){% endif %}
+          <em>{{ pub.venue }}</em>
+          {%- if pub.year %} ({{ pub.year }}){% endif %}
         </div>
 
         {% if pub.note %}
@@ -27,11 +28,21 @@
         {% endif %}
 
         <div class="pub-links">
-          {% if pub.abs %}<a class="pub-btn" href="{{ pub.abs }}" target="_blank" rel="noopener">ABS</a>{% endif %}
-          {% if pub.arxiv %}<a class="pub-btn" href="{{ pub.arxiv }}" target="_blank" rel="noopener">ARXIV</a>{% endif %}
-          {% if pub.pdf %}<a class="pub-btn" href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
-          {% if pub.code %}<a class="pub-btn" href="{{ pub.code }}" target="_blank" rel="noopener">CODE</a>{% endif %}
-          {% if pub.website %}<a class="pub-btn" href="{{ pub.website }}" target="_blank" rel="noopener">WEBSITE</a>{% endif %}
+          {% if pub.abs -%}
+            <a class="pub-btn" href="{{ pub.abs }}" target="_blank" rel="noopener">ABS</a>
+          {%- endif %}
+          {% if pub.arxiv -%}
+            <a class="pub-btn" href="{{ pub.arxiv }}" target="_blank" rel="noopener">ARXIV</a>
+          {%- endif %}
+          {% if pub.pdf -%}
+            <a class="pub-btn" href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>
+          {%- endif %}
+          {% if pub.code -%}
+            <a class="pub-btn" href="{{ pub.code }}" target="_blank" rel="noopener">CODE</a>
+          {%- endif %}
+          {% if pub.website -%}
+            <a class="pub-btn" href="{{ pub.website }}" target="_blank" rel="noopener">WEBSITE</a>
+          {%- endif %}
         </div>
       </div>
     </div>

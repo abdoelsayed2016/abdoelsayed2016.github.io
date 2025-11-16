@@ -25,7 +25,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-**Pronouns:** He/Him  
+
+**Pronouns:** He/Him
 
 Hello. I’m **Abdelrahman Abdallah**, a final-year Ph.D. candidate advised by
 [Professor Adam Jatowt](https://ds-informatik.uibk.ac.at/doku.php?id=homepage)
@@ -53,9 +54,9 @@ applications such as receipts and forms. -->
 
 My research interests include:
 
-- LLM-based Reranking & Information Retrieval  
-- Open-domain & Multilingual Question Answering  
-- Temporal Reasoning for QA & Retrieval  
+- LLM-based Reranking & Information Retrieval
+- Open-domain & Multilingual Question Answering
+- Temporal Reasoning for QA & Retrieval
 - Bias in Large Language Models
 
 Please feel free to contact me via email at

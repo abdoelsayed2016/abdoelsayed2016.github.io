@@ -10,7 +10,7 @@ body {
 }
 
 .about .profile {
-  margin-top: 3rem;   /* increase to 2rem, 3rem if you want it lower */
+  margin-top: 3rem; /* increase to 2rem, 3rem if you want it lower */
 }
 
 /* Selected publications: layout + buttons */
@@ -20,7 +20,7 @@ body {
 
 .selected-pub {
   padding: 0.9rem 0;
-  border-bottom: 1px solid rgba(0,0,0,0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .selected-pub .pub-title {
@@ -31,7 +31,7 @@ body {
 }
 
 .selected-pub .pub-title a {
-  color: #157da8;      /* link color */
+  color: #157da8; /* link color */
   text-decoration: none;
 }
 
@@ -58,9 +58,9 @@ body {
   color: #0a4a6f;
   background: #f1fbff;
   border: 1px solid #e0f2fb;
-  padding: .12rem .45rem;
+  padding: 0.12rem 0.45rem;
   border-radius: 999px;
-  font-size: .85rem;
+  font-size: 0.85rem;
 }
 
 .pub-links {
@@ -70,15 +70,15 @@ body {
 .pub-btn {
   display: inline-block;
   border: 1px solid #ddd;
-  padding: 0.25rem .55rem;
+  padding: 0.25rem 0.55rem;
   border-radius: 6px;
   font-weight: 700;
-  font-size: .78rem;
+  font-size: 0.78rem;
   text-decoration: none;
   color: #0a4a6f;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   background: white;
-  transition: all .12s ease-in-out;
+  transition: all 0.12s ease-in-out;
 }
 
 .pub-btn:hover {
@@ -86,7 +86,6 @@ body {
   border-color: #cfeefb;
   transform: translateY(-1px);
 }
-
 
 /* Color for publication titles */
 .bibliography .paper-title,
