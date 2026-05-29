@@ -1,9 +1,25 @@
 # _data/selected_publications.yml
-- id: tempretriever2025
+- id: mmbright2026
+  title: "MM-BRIGHT: A Multi-Task Multimodal Benchmark for Reasoning-Intensive Retrieval"
+  authors: "Abdelrahman A., Mounis M. D., Abdalla M., Kasem M. S., Senussi M. F., Mahmoud M., Ali M., Jatowt A., Kang H."
+  venue: "KDD 2026"
+  year: 2026
+  arxiv: "https://arxiv.org/abs/2601.09562"
+  code: ""
+
+- id: rankify2026
+  title: "Rankify: A Comprehensive Python Toolkit for Retrieval, Re-Ranking, and Retrieval-Augmented Generation"
+  authors: "Abdelrahman A., Piryani B., Mozafari J., Herzinger A., Holdcroft J., Jatowt A."
+  venue: "ACL Demo 2026"
+  year: 2026
+  arxiv: "https://arxiv.org/abs/2502.02464"
+  code: "https://github.com/DataScienceUIBK/Rankify"
+
+- id: tempretriever2026
   title: "TempRetriever: Fusion-based Temporal Dense Passage Retrieval for Time-Sensitive Questions"
   authors: "Abdelrahman A., Bhawna P., Jonas W., Avishek A., Adam J."
   venue: "WSDM 2026"
-  year: 2025
+  year: 2026
   arxiv: "https://arxiv.org/abs/2502.21024"
   code: ""
   note: "Acceptance rate: 16%"
@@ -30,10 +46,3 @@
   year: 2025
   arxiv: "https://arxiv.org/abs/2508.05512"
   code: "https://github.com/DataScienceUIBK/RankArena"
-- id: rankify2025
-  title: "RankArena: A unified platform for evaluation of retrieval, reranking and RAG"
-  authors: "Abdelrahman A., Abdalla M., Piryani B., Mozafari J., Ali M., Jatowt A."
-  venue: "CIKM 2025"
-  year: 2025
-  arxiv: "https://arxiv.org/abs/2502.02464"
-  code: "https://github.com/DataScienceUIBK/Rankify"
