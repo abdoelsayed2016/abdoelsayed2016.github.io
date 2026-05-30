@@ -7,6 +7,14 @@
   arxiv: "https://arxiv.org/abs/2601.09562"
   code: ""
 
+- id: bracketrank2026
+  title: "BracketRank: Large Language Model Document Ranking via Reasoning-based Competitive Elimination"
+  authors: "Abdelrahman A., Ali M., Piryani B., Jatowt A."
+  venue: "ACL 2026"
+  year: 2026
+  arxiv: "https://arxiv.org/abs/2604.08834"
+  code: ""
+
 - id: rankify2026
   title: "Rankify: A Comprehensive Python Toolkit for Retrieval, Re-Ranking, and Retrieval-Augmented Generation"
   authors: "Abdelrahman A., Piryani B., Mozafari J., Herzinger A., Holdcroft J., Jatowt A."
