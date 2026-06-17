@@ -254,130 +254,180 @@
 
   "publications": [
     {
-      "name": "DeAR: Dual-Stage Document Reranking with Reasoning Agents via LLM Distillation",
-      "publisher": "EMNLP Findings 2025",
-      "releaseDate": "2025",
-      "url": "https://arxiv.org/abs/2508.16998",
-      "summary": "Dual-stage LLM-based document reranking framework using reasoning agents and distillation."
+      "order": 22,
+      "name": "[C22] MM-BRIGHT: A Multi-Task Multimodal Benchmark for Reasoning-Intensive Retrieval",
+      "publisher": "KDD 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2601.09562",
+      "summary": "Abdelrahman Abdallah, Mohamed Darwish Mounis, Mahmoud Abdalla, Mahmoud SalahEldin Kasem, Mostafa Farouk Senussi, Mohamed Mahmoud, Mohammed Ali, Adam Jatowt, Hyun-Soo Kang."
     },
     {
-      "name": "How Good are LLM-based Rerankers? An Empirical Analysis of State-of-the-Art Reranking Models",
-      "publisher": "EMNLP Findings 2025",
-      "releaseDate": "2025",
-      "url": "https://arxiv.org/abs/2508.16757",
-      "summary": "Empirical analysis of modern LLM-based rerankers across multiple datasets and settings."
+      "order": 21,
+      "name": "[C21] Rankify: A Comprehensive Python Toolkit for Retrieval, Re-Ranking, and Retrieval-Augmented Generation",
+      "publisher": "ACL Demo 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2502.02464",
+      "summary": "Abdelrahman Abdallah, Bhawna Piryani, Jamshid Mozafari, Andreas Herzinger, Jamie Holdcroft, Adam Jatowt."
     },
     {
-      "name": "ComplexTempQA: A Large-Scale Dataset for Complex Temporal Question Answering",
-      "publisher": "EMNLP 2025",
-      "releaseDate": "2025",
-      "url": "https://arxiv.org/abs/2406.04866",
-      "summary": "Large-scale dataset for temporally complex question answering over dynamic collections."
+      "order": 20,
+      "name": "[C20] BracketRank: Large Language Model Document Ranking via Reasoning-based Competitive Elimination",
+      "publisher": "ACL 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2604.08834",
+      "summary": "Abdelrahman Abdallah, Mohammed Ali, Bhawna Piryani, Adam Jatowt."
     },
     {
-      "name": "RankArena: A Unified Platform for Evaluating Retrieval, Reranking and RAG",
-      "publisher": "CIKM 2025",
-      "releaseDate": "2025",
-      "url": "https://arxiv.org/abs/2508.05512",
-      "summary": "Unified platform for benchmarking retrieval, reranking, and RAG pipelines with human and LLM feedback."
+      "order": 19,
+      "name": "[C19] Negative Sampling Techniques in Dense Retrieval: A Survey",
+      "publisher": "Findings of EACL 2026",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Laurin Wischounig*, Abdelrahman Abdallah*, Adam Jatowt. *Equal contribution."
     },
     {
-      "name": "MultiOCR-QA: Dataset for Evaluating Robustness of LLMs in Question Answering on Multilingual OCR Texts",
+      "order": 18,
+      "name": "[C18] It's High Time: A Survey of Temporal Information Retrieval and Question Answering",
+      "publisher": "ACL 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2505.20243",
+      "summary": "Bhawna Piryani, Abdelrahman Abdallah, Jamshid Mozafari, Avishek Anand, Adam Jatowt."
+    },
+    {
+      "order": 17,
+      "name": "[C17] RECOR: Reasoning-focused Multi-turn Conversational Retrieval Benchmark",
+      "publisher": "Findings of ACL 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2601.05461",
+      "summary": "Mohammed Ali, Abdelrahman Abdallah, Amit Agarwal, Hitesh Laxmichand Patel, Adam Jatowt."
+    },
+    {
+      "order": 16,
+      "name": "[C16] Are LLM-Based Retrievers Worth Their Cost? An Empirical Study of Efficiency, Robustness, and Reasoning Overhead",
+      "publisher": "SIGIR 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2604.03676",
+      "summary": "Abdelrahman Abdallah, Jamie Holdcroft, Mohammed Ali, Adam Jatowt."
+    },
+    {
+      "order": 15,
+      "name": "[C15] TempRetriever: Fusion-based Temporal Dense Passage Retrieval for Time-Sensitive Questions",
+      "publisher": "WSDM 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2502.21024",
+      "summary": "Abdelrahman Abdallah, Bhawna Piryani, Jonas Wallat, Avishek Anand, Adam Jatowt."
+    },
+    {
+      "order": 14,
+      "name": "[C14] Evaluating Robustness of LLMs in Question Answering on Multilingual Noisy OCR Data",
       "publisher": "CIKM 2025",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2502.16781",
-      "summary": "Dataset designed to test robustness of QA models on noisy multilingual OCR outputs."
+      "summary": "Bhawna Piryani, Jamshid Mozafari, Abdelrahman Abdallah, Antoine Doucet, Adam Jatowt."
     },
     {
-      "name": "Wrong Answers Can Also Be Useful: PlausibleQA - A Large-Scale QA Dataset with Answer Plausibility Scores",
+      "order": 13,
+      "name": "[C13] RerankArena: A Unified Platform for Evaluating Retrieval, Reranking and RAG with Human and LLM Feedback",
+      "publisher": "CIKM 2025",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2508.05512",
+      "summary": "Abdelrahman Abdallah, Mahmoud Abdalla, Bhawna Piryani, Jamshid Mozafari, Mohammed Ali, Adam Jatowt."
+    },
+    {
+      "order": 12,
+      "name": "[C12] ComplexTempQA: A 100m Dataset for Complex Temporal Question Answering",
+      "publisher": "EMNLP 2025",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2406.04866",
+      "summary": "Raphael Gruber, Abdelrahman Abdallah, Michael Färber, Adam Jatowt."
+    },
+    {
+      "order": 11,
+      "name": "[C11] How Good are LLM-based Rerankers? An Empirical Analysis of State-of-the-Art Reranking Models",
+      "publisher": "Findings of EMNLP 2025",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2508.16757",
+      "summary": "Abdelrahman Abdallah, Bhawna Piryani, Jamshid Mozafari, Mohammed Ali, Adam Jatowt."
+    },
+    {
+      "order": 10,
+      "name": "[C10] DeAR: Dual-Stage Document Reranking with Reasoning Agents via LLM Distillation",
+      "publisher": "Findings of EMNLP 2025",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2508.16998",
+      "summary": "Abdelrahman Abdallah, Jamshid Mozafari, Bhawna Piryani, Adam Jatowt."
+    },
+    {
+      "order": 9,
+      "name": "[C9] Wrong Answers Can Also Be Useful: PlausibleQA - A Large-Scale QA Dataset with Answer Plausibility Scores",
       "publisher": "SIGIR 2025",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2502.16358",
-      "summary": "QA dataset with plausibility scores for both correct and incorrect answers."
+      "summary": "Jamshid Mozafari, Abdelrahman Abdallah, Bhawna Piryani, Adam Jatowt."
     },
     {
-      "name": "DynRank: Improving Passage Retrieval with Dynamic Zero-Shot Prompting Based on Question Classification",
+      "order": 8,
+      "name": "[C8] A Study into Investigating Temporal Robustness of LLMs",
+      "publisher": "Findings of ACL 2025",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2503.17073",
+      "summary": "Jonas Wallat, Abdelrahman Abdallah, Adam Jatowt, Avishek Anand."
+    },
+    {
+      "order": 7,
+      "name": "[C7] ASRank: Zero-Shot Re-Ranking with Answer Scent for Document Retrieval",
+      "publisher": "Findings of NAACL 2025",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2501.15245",
+      "summary": "Abdelrahman Abdallah, Jamshid Mozafari, Bhawna Piryani, Adam Jatowt."
+    },
+    {
+      "order": 6,
+      "name": "[C6] DynRank: Improve Passage Retrieval with Dynamic Zero-Shot Prompting Based on Question Classification",
       "publisher": "COLING 2025",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2412.00600",
-      "summary": "Dynamic prompting strategy for better zero-shot passage retrieval using LLMs."
+      "summary": "Abdelrahman Abdallah, Jamshid Mozafari, Bhawna Piryani, Mohammed M. Abdelgwad, Adam Jatowt."
     },
     {
-      "name": "ASRank: Zero-Shot Re-Ranking with Answer Scent for Document Retrieval",
-      "publisher": "NAACL 2025",
-      "releaseDate": "2025",
-      "url": "https://arxiv.org/abs/2501.15245",
-      "summary": "Zero-shot LLM-based reranking approach that uses answer scent signals."
-    },
-    {
-      "name": "CascadePLS-ViT: Cascade With Patch-Level Self-Supervised Vision Transformers for Breast Cancer Classification in Mammography",
+      "order": 5,
+      "name": "[C5] CascadePLS-ViT: Cascade with Patch-Level Self-Supervised Vision Transformers for Breast Cancer Classification in Mammography",
       "publisher": "ISBI 2025",
       "releaseDate": "2025",
       "url": "https://ieeexplore.ieee.org/abstract/document/10980753/",
-      "summary": "Patch-level self-supervised ViT cascade for mammographic breast cancer classification."
+      "summary": "Abdelrahman Abdallah, Mahmoud SalahEldin Kasem, Ibrahim Abdelhalim, Norah Saleh Alghamdi, Sohail Contractor, Ayman El-Baz."
     },
     {
-      "name": "From Retrieval to Generation: Evaluating the Best Approach",
-      "publisher": "Preprint",
-      "releaseDate": "2025",
-      "url": "https://arxiv.org/abs/2502.20245",
-      "summary": "Study comparing retrieval-based and generation-based approaches for QA and related tasks."
-    },
-    {
-      "name": "TempDPR: Temporal Dense Passage Retrieval for Explicit Temporal Questions",
-      "publisher": "Preprint",
-      "releaseDate": "2025",
-      "url": "https://arxiv.org/abs/2502.21024",
-      "summary": "Temporal dense passage retrieval model for time-sensitive questions."
-    },
-    {
-      "name": "A Survey of Recent Approaches to Form Understanding in Scanned Documents",
-      "publisher": "Artificial Intelligence Review",
-      "releaseDate": "2024",
-      "url": "",
-      "summary": "Survey of transformers and language models for form understanding and scanned document analysis."
-    },
-    {
-      "name": "Evaluating Temporal Robustness of Large Language Models",
-      "publisher": "ACL Findings 2025",
-      "releaseDate": "2025",
-      "url": "https://arxiv.org/abs/2503.17073",
-      "summary": "Evaluation of how LLM performance changes under temporal shifts in data."
-    },
-    {
-      "name": "HiGenQA: Exploring Hint Generation Approaches for Open Domain Question Answering",
-      "publisher": "EMNLP Findings 2024",
-      "releaseDate": "2024",
-      "url": "https://arxiv.org/abs/2409.16096",
-      "summary": "Study of automatic hint generation strategies for improving open-domain QA."
-    },
-    {
-      "name": "Detecting Temporal Ambiguity in Questions",
-      "publisher": "EMNLP Findings 2024",
-      "releaseDate": "2024",
-      "url": "https://arxiv.org/abs/2409.17046",
-      "summary": "Detection of temporally ambiguous questions in open-domain QA datasets."
-    },
-    {
-      "name": "IHRRB-DINO: Identifying High-Risk Regions of Breast Masses in Mammogram Images Using Data-Driven Instance Noise (DINO)",
-      "publisher": "MICCAI 2024",
-      "releaseDate": "2024",
-      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72378-0_11",
-      "summary": "DINO-based framework to highlight high-risk regions in mammogram images."
-    },
-    {
-      "name": "ArabicaQA: A Comprehensive Dataset for Arabic Question Answering",
+      "order": 4,
+      "name": "[C4] ArabicaQA: A Comprehensive Dataset for Arabic Question Answering",
       "publisher": "SIGIR 2024",
       "releaseDate": "2024",
       "url": "https://arxiv.org/abs/2403.17848",
-      "summary": "Large-scale dataset for Arabic open-domain question answering."
+      "summary": "Abdelrahman Abdallah, Mahmoud Kasem, Mahmoud Abdalla, Mohamed Mahmoud, Mohamed Elkasaby, Yasser Elbendary, Adam Jatowt."
     },
     {
-      "name": "Exploring the State of the Art in Legal QA Systems",
-      "publisher": "Journal of Big Data",
-      "releaseDate": "2023",
-      "url": "https://journalofbigdata.springeropen.com/articles/10.1186/s40537-023-00802-8",
-      "summary": "Comprehensive review of legal question answering systems and datasets."
+      "order": 3,
+      "name": "[C3] IHRRB-DINO: Identifying High-Risk Regions of Breast Masses in Mammogram Images Using Data-Driven Instance Noise",
+      "publisher": "MICCAI 2024",
+      "releaseDate": "2024",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72378-0_11",
+      "summary": "Mahmoud SalahEldin Kasem*, Abdelrahman Abdallah*, Ibrahim Abdelhalim*, Norah Saleh Alghamdi, Sohail Contractor, Ayman El-Baz. *Equal contribution."
+    },
+    {
+      "order": 2,
+      "name": "[C2] Detecting Temporal Ambiguity in Questions",
+      "publisher": "Findings of EMNLP 2024",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2409.17046",
+      "summary": "Bhawna Piryani, Abdelrahman Abdallah, Jamshid Mozafari, Adam Jatowt."
+    },
+    {
+      "order": 1,
+      "name": "[C1] Exploring Hint Generation Approaches for Open-Domain Question Answering",
+      "publisher": "Findings of EMNLP 2024",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2409.16096",
+      "summary": "Jamshid Mozafari, Abdelrahman Abdallah, Bhawna Piryani, Adam Jatowt."
     }
   ],
 
