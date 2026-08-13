@@ -254,6 +254,14 @@
 
   "publications": [
     {
+      "order": 23,
+      "name": "[C23] Difficulty-Gated Fusion of Reasoning Views for Temporal Retrieval",
+      "publisher": "CIKM 2026 Short Paper",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Abdelrahman Abdallah."
+    },
+    {
       "order": 22,
       "name": "[C22] MM-BRIGHT: A Multi-Task Multimodal Benchmark for Reasoning-Intensive Retrieval",
       "publisher": "KDD 2026",
