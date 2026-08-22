@@ -1,4 +1,78 @@
 # _data/selected_publications.yml
+- id: obliqir2026
+  title: "OBLIQ-IR: Training a Dense Retriever for Oblique Queries"
+  authors: "Abdalla M., Abdelrahman A., Sedek S., Jatowt A."
+  venue: "EMNLP 2026"
+  year: 2026
+  note: "Paper and code coming soon."
+
+- id: memora2026
+  title: "MEMORA: A Memory-Enhanced Multimodal Committee Reranking Agent for Reasoning-Intensive Retrieval"
+  authors: "Mahmoud M., Senussi M. F., Abdalla M., Kasem M. S., Abdelrahman A., Kang H."
+  venue: "EMNLP 2026"
+  year: 2026
+  note: "Paper and code coming soon."
+
+- id: sustainableqa2026
+  title: "SustainableQA: A Comprehensive Question Answering Dataset for Corporate Sustainability and EU Taxonomy Reporting"
+  authors: "Ali M., Abdelrahman A., Jatowt A."
+  venue: "EMNLP 2026"
+  year: 2026
+  arxiv: "https://arxiv.org/abs/2508.03000"
+  code: "https://github.com/DataScienceUIBK/SustainableQA"
+
+- id: tempo2026
+  title: "TEMPO: Realistic Multi-Domain Benchmark for Temporal Reasoning-Intensive Retrieval"
+  authors: "Abdelrahman A., Ali M., Abdul-Mageed M., Jatowt A."
+  venue: "EMNLP 2026"
+  year: 2026
+  arxiv: "https://arxiv.org/abs/2601.09523"
+  website: "https://tempo-bench.github.io"
+
+- id: argus2026
+  title: "Argus-Retriever: Vision-LLM Late-Interaction Retrieval with Region-Aware Query-Conditioned MoE for Visual Document Retrieval"
+  authors: "Abdelrahman A., Abdalla M., Ali M., Jatowt A."
+  venue: "EMNLP 2026"
+  year: 2026
+  arxiv: "https://arxiv.org/abs/2606.04300"
+  code: "https://github.com/DataScienceUIBK/Argus-Retriever"
+
+- id: popular-options2026
+  title: "Large Language Models Systematically Favor Popular Options: Evidence and Mitigation Across MCQs"
+  authors: "Abdelrahman A., Ali M., Piryani B., Abdalla M., Jatowt A."
+  venue: "EMNLP 2026"
+  year: 2026
+  note: "Paper and code coming soon."
+
+- id: smallreason-colbert2026
+  title: "SmallReason-ColBERT: An Ultra-Small Late-Interaction Retriever for Reasoning-Intensive Retrieval"
+  authors: "Abdelrahman A., Ali M., Jatowt A."
+  venue: "EMNLP 2026"
+  year: 2026
+  note: "Paper and code coming soon."
+
+- id: moca2026
+  title: "MoCA-Agent: A Market-of-Claims Code Agent for Financial and Numerical Reasoning"
+  authors: "Abdelrahman A., Elmadany A. A., Al Natour S., Cavusoglu H., Jatowt A., Abdul-Mageed M."
+  venue: "EMNLP 2026"
+  year: 2026
+  arxiv: "https://arxiv.org/abs/2606.11537"
+  code: "https://github.com/UBC-NLP/MoCA-Agent"
+
+- id: magnitude-mirage2026
+  title: "The Magnitude Mirage: Rethinking Confidence for Reasoning-Intensive Retrieval"
+  authors: "Holdcroft J., Abdelrahman A., Jatowt A."
+  venue: "EMNLP 2026"
+  year: 2026
+  note: "Paper and code coming soon."
+
+- id: regreact2026
+  title: "REGREACT: Self-Correcting Multi-Agent Pipelines for Structured Regulatory Information Extraction"
+  authors: "Ali M., Abdelrahman A., Jatowt A."
+  venue: "EMNLP Findings 2026"
+  year: 2026
+  arxiv: "https://arxiv.org/abs/2604.12054"
+
 - id: mmbright2026
   title: "MM-BRIGHT: A Multi-Task Multimodal Benchmark for Reasoning-Intensive Retrieval"
   authors: "Abdelrahman A., Mounis M. D., Abdalla M., Kasem M. S., Senussi M. F., Mahmoud M., Ali M., Jatowt A., Kang H."

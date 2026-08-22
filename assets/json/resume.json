@@ -254,6 +254,86 @@
 
   "publications": [
     {
+      "order": 33,
+      "name": "[C33] OBLIQ-IR: Training a Dense Retriever for Oblique Queries",
+      "publisher": "EMNLP 2026",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Mahmoud Abdalla, Abdelrahman Abdallah, Shaimaa Sedek, Adam Jatowt."
+    },
+    {
+      "order": 32,
+      "name": "[C32] MEMORA: A Memory-Enhanced Multimodal Committee Reranking Agent for Reasoning-Intensive Retrieval",
+      "publisher": "EMNLP 2026",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Mohamed Mahmoud, Mostafa Farouk Senussi, Mahmoud Abdalla, Mahmoud SalahEldin Kasem, Abdelrahman Abdallah, Hyun Soo Kang."
+    },
+    {
+      "order": 31,
+      "name": "[C31] SustainableQA: A Comprehensive Question Answering Dataset for Corporate Sustainability and EU Taxonomy Reporting",
+      "publisher": "EMNLP 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2508.03000",
+      "summary": "Mohammed Ali, Abdelrahman Abdallah, Adam Jatowt."
+    },
+    {
+      "order": 30,
+      "name": "[C30] TEMPO: Realistic Multi-Domain Benchmark for Temporal Reasoning-Intensive Retrieval",
+      "publisher": "EMNLP 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2601.09523",
+      "summary": "Abdelrahman Abdallah, Mohammed Ali, Muhammad Abdul-Mageed, Adam Jatowt."
+    },
+    {
+      "order": 29,
+      "name": "[C29] Argus-Retriever: Vision-LLM Late-Interaction Retrieval with Region-Aware Query-Conditioned MoE for Visual Document Retrieval",
+      "publisher": "EMNLP 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2606.04300",
+      "summary": "Abdelrahman Abdallah, Mahmoud Abdalla, Mohammed Ali, Adam Jatowt."
+    },
+    {
+      "order": 28,
+      "name": "[C28] Large Language Models Systematically Favor Popular Options: Evidence and Mitigation Across MCQs",
+      "publisher": "EMNLP 2026",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Abdelrahman Abdallah, Mohammed Ali, Bhawna Piryani, Mahmoud Abdalla, Adam Jatowt."
+    },
+    {
+      "order": 27,
+      "name": "[C27] SmallReason-ColBERT: An Ultra-Small Late-Interaction Retriever for Reasoning-Intensive Retrieval",
+      "publisher": "EMNLP 2026",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Abdelrahman Abdallah, Mohammed Ali, Adam Jatowt."
+    },
+    {
+      "order": 26,
+      "name": "[C26] MoCA-Agent: A Market-of-Claims Code Agent for Financial and Numerical Reasoning",
+      "publisher": "EMNLP 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2606.11537",
+      "summary": "Abdelrahman Abdallah, AbdelRahim A. Elmadany, Sameh Al Natour, Hasan Cavusoglu, Adam Jatowt, Muhammad Abdul-Mageed."
+    },
+    {
+      "order": 25,
+      "name": "[C25] The Magnitude Mirage: Rethinking Confidence for Reasoning-Intensive Retrieval",
+      "publisher": "EMNLP 2026",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Jamie Holdcroft, Abdelrahman Abdallah, Adam Jatowt."
+    },
+    {
+      "order": 24,
+      "name": "[C24] REGREACT: Self-Correcting Multi-Agent Pipelines for Structured Regulatory Information Extraction",
+      "publisher": "Findings of EMNLP 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2604.12054",
+      "summary": "Mohammed Ali, Abdelrahman Abdallah, Adam Jatowt."
+    },
+    {
       "order": 23,
       "name": "[C23] Difficulty-Gated Fusion of Reasoning Views for Temporal Retrieval",
       "publisher": "CIKM 2026 Short Paper",
