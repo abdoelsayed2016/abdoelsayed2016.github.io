@@ -56,10 +56,11 @@ applications such as receipts and forms. -->
 
 My research interests include:
 
-- LLM-based Reranking & Information Retrieval
-- Open-domain & Multilingual Question Answering
-- Temporal Reasoning for QA & Retrieval
-- Bias in Large Language Models
+- Reasoning-Intensive Information Retrieval & Reranking
+- Efficient & Multimodal Retrieval Models
+- Temporal Information Retrieval & Question Answering
+- Retrieval-Augmented Generation & Agentic Search
+- LLM Evaluation, Calibration & Bias Mitigation
 
 Please feel free to contact me via email at
 **abdelrahman.abdallah@uibk.ac.at** or **abdoelsayed2016@gmail.com**.
