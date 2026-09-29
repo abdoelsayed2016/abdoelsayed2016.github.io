@@ -6,9 +6,10 @@
   {% for pub in site.data.selected_publications %}
     <div class="selected-pub">
       <div class="pub-left">
+        {% assign primary_link = pub.pdf | default: pub.arxiv | default: pub.website | default: pub.code %}
         <h3 class="pub-title">
-          {% if pub.pdf %}
-            <a href="{{ pub.pdf }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+          {% if primary_link %}
+            <a href="{{ primary_link }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>
           {% else %}
             {{ pub.title }}
           {% endif %}
@@ -29,22 +30,29 @@
 
         <div class="pub-links">
           {% if pub.abs -%}
-            <a class="pub-btn" href="{{ pub.abs }}" target="_blank" rel="noopener">ABS</a>
+            <a class="pub-btn" href="{{ pub.abs }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-align-left" aria-hidden="true"></i> Abstract</a>
           {%- endif %}
           {% if pub.arxiv -%}
-            <a class="pub-btn" href="{{ pub.arxiv }}" target="_blank" rel="noopener">ARXIV</a>
+            <a class="pub-btn" href="{{ pub.arxiv }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> arXiv</a>
           {%- endif %}
           {% if pub.pdf -%}
-            <a class="pub-btn" href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>
+            <a class="pub-btn" href="{{ pub.pdf }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> PDF</a>
           {%- endif %}
           {% if pub.code -%}
-            <a class="pub-btn" href="{{ pub.code }}" target="_blank" rel="noopener">CODE</a>
+            <a class="pub-btn" href="{{ pub.code }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
           {%- endif %}
           {% if pub.website -%}
-            <a class="pub-btn" href="{{ pub.website }}" target="_blank" rel="noopener">WEBSITE</a>
+            <a class="pub-btn" href="{{ pub.website }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>
           {%- endif %}
         </div>
       </div>
     </div>
   {% endfor %}
+  <div class="selected-pubs-footer">
+    <a class="selected-pubs-more" href="{{ '/publications/' | relative_url }}">
+      <i class="fa-solid fa-book-open" aria-hidden="true"></i>
+      <span>View all publications</span>
+      <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+    </a>
+  </div>
 </div>

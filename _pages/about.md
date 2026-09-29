@@ -28,11 +28,13 @@ latest_posts:
 
 **Pronouns:** He/Him
 
-Hello. I’m **Abdelrahman Abdallah**, a final-year Ph.D. candidate advised by
+Hello. I’m **Abdelrahman Abdallah**, a Ph.D. graduate in Computer Science advised by
 [Professor Adam Jatowt](https://ds-informatik.uibk.ac.at/doku.php?id=homepage)
 at the [Digital Science Center (DiSC)](https://www.uibk.ac.at/disc/),
 [Department of Computer Science](https://www.uibk.ac.at/informatik/index.html.en),
 [University of Innsbruck](https://www.uibk.ac.at/index.html.en).
+I graduated with honors in September 2026, receiving **Sehr gut (1)**, the highest
+grade in the Austrian grading system.
 Currently, I am a research assistant at DiSC. Previously, I worked as a
 machine learning engineer at [DISCO App](https://discoapp.ai/) in Cairo and at
 [KMG Engineering](https://www.kmge.kz/en/home_en/) in Kazakhstan, as a machine learning researcher at [Satbayev

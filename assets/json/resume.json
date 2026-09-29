@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Abdelrahman Abdallah",
-    "label": "Ph.D. Candidate · Machine Learning & NLP",
+    "label": "Ph.D. in Computer Science · Machine Learning & NLP",
     "image": "",
     "email": "abdelrahman.abdallah@uibk.ac.at",
     "phone": "+20 11 1137 1734",
     "url": "https://abdoelsayed2016.github.io/",
-    "summary": "Machine learning engineer and final-year Ph.D. candidate with experience in natural language processing, information retrieval, and computer vision. Passionate about building LLM-based systems, OCR and QA pipelines, and tools that support both research and real-world applications.",
+    "summary": "Machine learning and NLP researcher with a Ph.D. in Computer Science from the University of Innsbruck. Graduated with honors, receiving Sehr gut (1), the highest grade in the Austrian grading system. Experienced in natural language processing, information retrieval, computer vision, and building LLM-based systems.",
     "location": {
       "address": "Digital Science Center (DiSC)",
       "postalCode": "6020",
@@ -193,8 +193,8 @@
       "area": "Computer Science",
       "studyType": "PhD",
       "startDate": "2022-10-01",
-      "endDate": "",
-      "score": "",
+      "endDate": "2026-09-28",
+      "score": "Sehr gut (1) — highest grade in the Austrian grading system; graduated with honors",
       "courses": []
     },
     {
@@ -234,6 +234,13 @@
 
   "awards": [
     {
+      "title": "Ph.D. Graduation with Honors",
+      "date": "2026-09-28",
+      "awarder": "University of Innsbruck",
+      "url": "https://www.uibk.ac.at/",
+      "summary": "Graduated with a Ph.D. in Computer Science with Sehr gut (1), the highest grade in the Austrian grading system."
+    },
+    {
       "title": "Scholarship for Master's Studies",
       "date": "2019-09-01",
       "awarder": "Satbayev University",
@@ -254,11 +261,21 @@
 
   "publications": [
     {
+      "order": 34,
+      "name": "[C34] HintEval: An Open-Source Python Toolkit for Hint Generation and Hint Evaluation",
+      "publisher": "EMNLP 2026 Demo",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2502.00857",
+      "code": "https://github.com/DataScienceUIBK/HintEval",
+      "summary": "Jamshid Mozafari, Bhawna Piryani, Abdelrahman Abdallah, Adam Jatowt."
+    },
+    {
       "order": 33,
       "name": "[C33] OBLIQ-IR: Training a Dense Retriever for Oblique Queries",
       "publisher": "EMNLP 2026",
       "releaseDate": "2026",
-      "url": "",
+      "url": "https://arxiv.org/abs/2609.29649",
+      "code": "https://github.com/DataScienceUIBK/obliq-ir",
       "summary": "Mahmoud Abdalla, Abdelrahman Abdallah, Shaimaa Sedek, Adam Jatowt."
     },
     {
@@ -267,6 +284,7 @@
       "publisher": "EMNLP 2026",
       "releaseDate": "2026",
       "url": "",
+      "code": "https://github.com/HarnessLab/MEMORA",
       "summary": "Mohamed Mahmoud, Mostafa Farouk Senussi, Mahmoud Abdalla, Mahmoud SalahEldin Kasem, Abdelrahman Abdallah, Hyun Soo Kang."
     },
     {
@@ -291,6 +309,7 @@
       "publisher": "EMNLP 2026",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2606.04300",
+      "code": "https://github.com/DataScienceUIBK/Argus-Retriever",
       "summary": "Abdelrahman Abdallah, Mahmoud Abdalla, Mohammed Ali, Adam Jatowt."
     },
     {
@@ -298,7 +317,8 @@
       "name": "[C28] Large Language Models Systematically Favor Popular Options: Evidence and Mitigation Across MCQs",
       "publisher": "EMNLP 2026",
       "releaseDate": "2026",
-      "url": "",
+      "url": "https://arxiv.org/abs/2608.29257",
+      "code": "https://github.com/DataScienceUIBK/PopMCQ",
       "summary": "Abdelrahman Abdallah, Mohammed Ali, Bhawna Piryani, Mahmoud Abdalla, Adam Jatowt."
     },
     {
@@ -306,7 +326,8 @@
       "name": "[C27] SmallReason-ColBERT: An Ultra-Small Late-Interaction Retriever for Reasoning-Intensive Retrieval",
       "publisher": "EMNLP 2026",
       "releaseDate": "2026",
-      "url": "",
+      "url": "https://arxiv.org/abs/2609.29652",
+      "code": "https://github.com/DataScienceUIBK/SmallReason-ColBERT",
       "summary": "Abdelrahman Abdallah, Mohammed Ali, Adam Jatowt."
     },
     {
@@ -322,7 +343,8 @@
       "name": "[C25] The Magnitude Mirage: Rethinking Confidence for Reasoning-Intensive Retrieval",
       "publisher": "EMNLP 2026",
       "releaseDate": "2026",
-      "url": "",
+      "url": "https://arxiv.org/abs/2609.15578",
+      "code": "https://github.com/JamieHoldcroft/the-magnitude-mirage",
       "summary": "Jamie Holdcroft, Abdelrahman Abdallah, Adam Jatowt."
     },
     {
@@ -339,7 +361,8 @@
       "publisher": "CIKM 2026 Short Paper",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2608.08940",
-      "summary": "Abdelrahman Abdallah."
+      "code": "https://github.com/DataScienceUIBK/difficulty-gated-reasoning-view-fusion",
+      "summary": "Jamie Holdcroft, Abdelrahman Abdallah, Adam Jatowt."
     },
     {
       "order": 22,
@@ -347,6 +370,7 @@
       "publisher": "KDD 2026",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2601.09562",
+      "code": "https://github.com/mm-bright/MM-BRIGHT",
       "summary": "Abdelrahman Abdallah, Mohamed Darwish Mounis, Mahmoud Abdalla, Mahmoud SalahEldin Kasem, Mostafa Farouk Senussi, Mohamed Mahmoud, Mohammed Ali, Adam Jatowt, Hyun-Soo Kang."
     },
     {
@@ -370,7 +394,7 @@
       "name": "[C19] Negative Sampling Techniques in Dense Retrieval: A Survey",
       "publisher": "Findings of EACL 2026",
       "releaseDate": "2026",
-      "url": "",
+      "url": "https://aclanthology.org/2026.findings-eacl.157/",
       "summary": "Laurin Wischounig*, Abdelrahman Abdallah*, Adam Jatowt. *Equal contribution."
     },
     {

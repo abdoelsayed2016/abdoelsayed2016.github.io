@@ -19,8 +19,8 @@ body {
 }
 
 .selected-pub {
-  padding: 0.9rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
 .selected-pub .pub-title {
@@ -31,7 +31,7 @@ body {
 }
 
 .selected-pub .pub-title a {
-  color: #157da8; /* link color */
+  color: var(--global-theme-color);
   text-decoration: none;
 }
 
@@ -41,12 +41,12 @@ body {
 
 .selected-pub .pub-authors {
   margin-bottom: 0.2rem;
-  color: #222;
+  color: var(--global-text-color);
   font-size: 0.95rem;
 }
 
 .selected-pub .pub-meta {
-  color: #666;
+  color: var(--global-text-color-light);
   margin-bottom: 0.35rem;
   font-style: italic;
 }
@@ -65,26 +65,60 @@ body {
 
 .pub-links {
   margin-top: 0.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
 }
 
 .pub-btn {
-  display: inline-block;
-  border: 1px solid #ddd;
-  padding: 0.25rem 0.55rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--global-divider-color);
+  padding: 0.28rem 0.6rem;
   border-radius: 6px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 0.78rem;
   text-decoration: none;
-  color: #0a4a6f;
-  margin-right: 0.5rem;
-  background: white;
-  transition: all 0.12s ease-in-out;
+  color: var(--global-theme-color);
+  background: var(--global-card-bg-color);
+  transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
 }
 
 .pub-btn:hover {
-  background: #f4fbff;
-  border-color: #cfeefb;
+  background: var(--global-bg-color);
+  border-color: var(--global-theme-color);
   transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.selected-pubs-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+}
+
+.selected-pubs-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-height: 2.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 6px;
+  color: var(--global-theme-color);
+  background: var(--global-card-bg-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.selected-pubs-more:hover {
+  color: var(--global-hover-text-color);
+  background: var(--global-theme-color);
+  transform: translateY(-1px);
+  text-decoration: none;
 }
 
 /* Color for publication titles */
