@@ -1,4 +1,11 @@
 # Curated homepage publications. The full list is available at /publications/.
+- id: excise2027
+  title: "EXCISE: Query-Side Exclusion for Late-Interaction Retrieval"
+  authors: "Ali M., Abdallah A., Jatowt A."
+  venue: "EACL 2027 Main Conference"
+  year: 2027
+  arxiv: "https://arxiv.org/abs/2608.05497"
+
 - id: obliqir2026
   title: "OBLIQ-IR: Training a Dense Retriever for Oblique Queries"
   authors: "Abdalla M., Abdallah A., Sedek S., Jatowt A."
