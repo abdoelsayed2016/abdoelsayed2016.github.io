@@ -261,6 +261,14 @@
 
   "publications": [
     {
+      "order": 35,
+      "name": "[C35] EXCISE: Query-Side Exclusion for Late-Interaction Retrieval",
+      "publisher": "EACL 2027 Main Conference",
+      "releaseDate": "2027",
+      "url": "https://arxiv.org/abs/2608.05497",
+      "summary": "Mohammed Ali, Abdelrahman Abdallah, Adam Jatowt."
+    },
+    {
       "order": 34,
       "name": "[C34] HintEval: An Open-Source Python Toolkit for Hint Generation and Hint Evaluation",
       "publisher": "EMNLP 2026 Demo",
